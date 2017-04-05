@@ -1,7 +1,7 @@
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
 feedparser = (loadfile "./libs/feedparser.lua")()
-our_id = 315272489 -- Put Here Your Bot ID
+our_id = 318866464 -- Put Here Your Bot ID
 URL = require "socket.url"
 http = require "socket.http"
 https = require "ssl.https"
@@ -91,7 +91,7 @@ function create_config( )
 	
  },
     sudo_users = {315272489},
-    admins = {315272489},
+    admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
     info_text = [[》https://telegram.me/joinchat/AAAAAEGbWIj5P9TvfOfddg
