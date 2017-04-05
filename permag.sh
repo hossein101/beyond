@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/permag.ir
+cd $HOME/beyond
 
 install() {
 	    cd tg
